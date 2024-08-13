@@ -1,7 +1,7 @@
 import command from './command.mjs';
 
 // eslint-disable-next-line import/prefer-default-export
-export async function createGenerator(ev) {
+export async function createGenerator(env) {
   let BaseApplicationGenerator;
   try {
     // Try to use locally installed generator-jhipster
@@ -86,11 +86,11 @@ export async function createGenerator(ev) {
 
               this.fs.copyTpl(templatePath, destinationPath, context);
 //
-              this.fs.copyTpl(
-                this.templatePath,
-                this.destinationPath(),
-                this.props
-              );
+//               this.fs.copyTpl(
+//                 this.templatePath,
+//                 this.destinationPath(),
+//                 this.props
+//               );
 
               this.log("Template file written successfully to", destinationPath);
             },
