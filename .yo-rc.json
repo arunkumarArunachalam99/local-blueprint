@@ -1,0 +1,46 @@
+{
+  "generator-jhipster": {
+    "additionalSubGenerators": "",
+    "baseName": "dark-blueprint",
+    "cli": null,
+    "creationTimestamp": 1723119322490,
+    "devServerPort": 4200,
+    "dynamic": true,
+    "entities": [],
+    "generators": {
+      "server": {
+        "command": null,
+        "priorities": [
+          "initializing",
+          "prompting",
+          "configuring",
+          "composing",
+          "composingComponent",
+          "loading",
+          "preparing",
+          "postPreparing",
+          "default",
+          "writing",
+          "multistepTransform",
+          "postWriting",
+          "transform",
+          "install",
+          "postInstall",
+          "end"
+        ],
+        "sbs": true,
+        "written": true
+      }
+    },
+    "jhipsterVersion": "8.5.0",
+    "js": false,
+    "jwtSecretKey": "MjMxMDkzZGJhOTAzZjJkMjYzOGI1YWJiMmNlNjg2YzE3YmQ2YTcyOTBjNzMzMjc2N2QzMWZjNDZhYThmMGQ0ZDE1NmE5M2NiZGQyYjA1MTRkYmM0MzNlOTZhM2Q4YTcxYWQ3Nzc3OWQ3YzQ3MTIzMjMyZDc1NzczMDQ3OTNiNmQ=",
+    "languages": ["en"],
+    "localBlueprint": true,
+    "monorepository": true,
+    "nativeLanguage": "en",
+    "sampleWritten": true,
+    "skipCommitHook": true,
+    "subGenerators": ["server"]
+  }
+}
